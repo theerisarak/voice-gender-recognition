@@ -32,6 +32,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 2. Prepare Your Dataset: Place your .m4a voice recordings in two separate folders within your dataset directory - one for Males and one for Females.
+- We used the VoxCeleb audio-visual dataset in this work
 
 3. Run the Feature Extraction and Model Training:
 
